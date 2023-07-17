@@ -96,17 +96,6 @@
   color: #47b9cb;
 }
 
-.video-container{
-  height: 80%;
-  width: 100%;
-  max-height: 250px;
-  min-height: 90vh;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  background-image: url(../images/maxresdefault\ vedio.webp);
-  
-}
 .card {
   display: flex;
   align-items: center;
