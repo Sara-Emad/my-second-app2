@@ -1,0 +1,363 @@
+.navbar-brand img {
+  max-height: 40px;
+  margin-right: 6px;
+}
+
+.hero {
+  height: 80%;
+  width: 100%;
+  min-height: 90vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-image: url(../images/header.png);
+}
+.hero:before {
+  content: "";
+  background: linear-gradient(90deg, #0000008c, #ffffff00);
+  background-color: rgba(2, 21, 89, 0.7);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.nav-link {
+  margin-right: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 11px;
+  background: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(248, 245, 245);
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgba(68, 188, 196, 0.781);
+}
+
+.btn-light:hover {
+  background: #ff9d00de;
+  color: #fff;
+  border-color: transparent;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 11px;
+  font-size: 1.125rem;
+  font-family: "Ubuntu Regular";
+  line-height: 24px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+}
+.btn-light {
+  background: #fd7e14;
+  color: #fff;
+  border-color: transparent;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 11px;
+  font-size: 1.125rem;
+  font-family: "Ubuntu Regular";
+  line-height: 24px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+}
+.btn-outline-light {
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 11px;
+  font-size: 1.125rem;
+  font-family: "Ubuntu Regular";
+  line-height: 24px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid #fff;
+}
+
+.btn-outline-light:hover {
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 11px;
+  font-size: 1.125rem;
+  font-family: "Ubuntu Regular";
+  line-height: 24px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  background: #fff;
+  color: #47b9cb;
+}
+
+.video-container{
+  height: 80%;
+  width: 100%;
+  max-height: 250px;
+  min-height: 90vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-image: url(../images/maxresdefault\ vedio.webp);
+  
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.btn-warning {
+  padding-left: 14vw;
+  padding-right: 14vw;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 11px;
+  font-size: 1.125rem;
+  font-family: "Ubuntu Regular";
+  line-height: 24px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+}
+.btn-warning:hover {
+  padding-top: 10px;
+  padding-bottom: 11px;
+  font-size: 1.125rem;
+  font-family: "Ubuntu Regular";
+  line-height: 24px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  background: #ff9d00de;
+  color: #fff;
+}
+.single-box {
+  width: 360px;
+  height: 125px;
+}
+.img-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-area img {
+  width: 50px;
+  height: 50px;
+}
+.img-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 26px;
+}
+.carousel-indicators {
+  left: 0;
+  top: auto;
+  bottom: -50px;
+}
+
+.carousel-indicators li {
+  background: #dfdfdf;
+  border-radius: 50%;
+  border-color: #080808;
+  width: 18px;
+  height: 18px;
+  border: 3px solid #fff;
+}
+
+.carousel-indicators .active {
+  background: #021559;
+}
+
+.carousel-control-prev-icon {
+  border-width: 4px 4px 0 0;
+  border-style: solid;
+  border-color: #0000006c;
+  width: 36px;
+  height: 36px;
+  transform: rotate(227deg);
+}
+
+.carousel-control-next-icon {
+  border-width: 4px 4px 0 0;
+  border-style: solid;
+  border-color: #0000006c;
+  width: 36px;
+  height: 36px;
+  transform: rotate(45deg);
+}
+
+.super-service {
+  background-color: #021559;
+  background-image: url(../images/Mask\ Group\ 3.png);
+  margin-top: 150px;
+}
+
+.card-omr {
+  position: relative;
+  background: #fff;
+  opacity: 0.9;
+  border-radius: 10px;
+  padding: 70px 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.16);
+  margin-bottom: 12vh;
+  height: 80%;
+}
+
+.img-out {
+  width: 150px;
+  height: 150px;
+}
+
+.img-out img {
+  border-radius: 50%;
+}
+.card-text {
+  font-size: 1.2rem;
+  line-height: 30px;
+  color: #707070;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 32px;
+}
+
+.happy h2 {
+  font-size: 3.25rem;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 10vh;
+  margin-bottom: 12vh;
+}
+
+.btn-dark {
+  padding-right: 150px;
+  padding-left: 150px;
+  padding-top: 10px;
+  padding-bottom: 11px;
+  font-size: 1.125rem;
+  font-family: "Ubuntu Regular";
+  line-height: 24px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  background-color: transparent;
+}
+.btn-dark:hover {
+  padding-right: 150px;
+  padding-left: 150px;
+  padding-top: 10px;
+  padding-bottom: 11px;
+  font-size: 1.125rem;
+  font-family: "Ubuntu Regular";
+  line-height: 24px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  background: #fff;
+  color: #47b9cb;
+}
+
+.sub-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 124px 0;
+}
+
+.sub-footer1 {
+  background: #fff;
+  border-radius: 25px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.16);
+  text-align: center;
+  padding: 45px 0;
+}
+
+.sub-footer1 h2 {
+  font-size: 1.875rem;
+  color: #021559;
+  line-height: 40px;
+  font-weight: 400;
+}
+.sub-footer1 h4 {
+  font-size: 1.375rem;
+  color: #707070;
+  line-height: 30px;
+}
+
+.foot h2 {
+  font-size: 2.25rem;
+  line-height: 48px;
+  font-weight: bold;
+  color: #fff;
+}
+.foot h4 {
+  font-size: 1.125rem;
+  line-height: 36px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.btn-footer:hover {
+  padding-left: 100px;
+  padding-right: 100px;
+  background: #fff;
+  color: #ff9d00;
+  border: 2px solid #ff9d00;
+}
+.btn-footer {
+  padding-left: 100px;
+  padding-right: 100px;
+  color: #fff;
+  background: #ff9d00;
+  border: 2px solid #ff9d00;
+}
+
+.footer3 h2 {
+  font-size: 2.25rem;
+  line-height: 48px;
+  font-weight: bold;
+  color: #021559;
+}
+.footer3 h4 {
+  font-size: 1.125rem;
+  line-height: 36px;
+  font-weight: 400;
+  color: #021559;
+}
+
+.btn-footer3:hover {
+  padding-left: 100px;
+  padding-right: 100px;
+  color: #fff;
+  background: #ff9d00;
+  border: 2px solid #ff9d00;
+  font-size: 1.125rem;
+  border-radius: 10px;
+  line-height: 24px;
+}
+.btn-footer3 {
+  padding-left: 100px;
+  padding-right: 100px;
+  background: #fff;
+  color: #ff9d00;
+  border: 2px solid #ff9d00;
+  font-size: 1.125rem;
+  border-radius: 10px;
+  line-height: 24px;
+}
