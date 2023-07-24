@@ -1,13 +1,58 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.beta {
+  color: #fff;
+  font: 14px "Ubuntu", sans-serif;
+  margin-left: 0.8px;
+  position: relative;
+  bottom: 3px;
+  vertical-align: bottom;
+}
+.nav-blog {
+  align-items: center;
+  background-color: rgb(2, 21, 89);
+  box-sizing: border-box;
+  color: rgb(119, 119, 119);
+  z-index: 1030;
+}
+.navbar-light .navbar-text a {
+  color: rgba(255, 255, 255, 0.973);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.navbar-light .navbar-text a:hover {
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+  list-style-type: none;
+}
+.blog-img {
+  width: 550px;
+}
+.text-blog {
+  font-size: 30px;
+  color: #000;
+  font-weight: bold;
+}
+.pra-blog{
+  line-height: 26px;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  color: #777777;
+}
+.a-blog:hover{
+  text-decoration: none;
 }

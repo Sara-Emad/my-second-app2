@@ -11,6 +11,8 @@ const Home = () => {
           >
             <a className="navbar-brand" href="www">
               <img src="./images/logo.png" alt="" />
+              <span className="beta">Beta</span>
+
             </a>
             <button
               className="navbar-toggler"
