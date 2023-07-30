@@ -3,10 +3,16 @@ import Navbar from "react-bootstrap/Navbar";
 import React from "react";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
+import { Helmet } from 'react-helmet-async';
 
 const Blog = () => {
   return (
     <>
+    <Helmet>
+        <title>Techiematter | Blog</title>
+        <meta name="description" content="We are sharing with you 5 smart ways to retain your tech talents for long." />
+      </Helmet>
+
       <section className="nav-blog">
         <Navbar className="  fixed-top   " style={{backgroundColor:"rgb(2, 21, 89)",marginBottom:"200px",}}>
           <Container>

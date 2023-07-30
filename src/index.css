@@ -46,13 +46,75 @@ code {
   color: #000;
   font-weight: bold;
 }
-.pra-blog{
+.pra-blog {
   line-height: 26px;
   font-size: 17px;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   color: #777777;
 }
-.a-blog:hover{
+.a-blog:hover {
   text-decoration: none;
+}
+
+.form-container {
+  padding: 48px 0 26px 0;
+  text-align: center;
+  color: #000;
+  background: #fff;
+  border-radius: 25px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.16);
+  margin: 37px 0;
+  position: relative;
+}
+.form-mid-container {
+  text-align: left;
+}
+.email-text {
+  font-weight: bold;
+}
+.table-blog {
+  color: #707070;
+  font-size: 0.875rem;
+  line-height: 19px;
+  border: 1px solid #c2c2c2;
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 25px 11px;
+}
+
+.form-blog {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.button-blog {
+  background: #27b4e5de;
+  width: 100%;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 11px;
+  font-size: 1.125rem;
+  font-family: "Ubuntu Regular";
+  line-height: 24px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+}
+.button-blog:hover{
+  background: #0bb9f3de;
+  width: 100%;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 11px;
+  font-size: 1.125rem;
+  font-family: "Ubuntu Regular";
+  line-height: 24px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
 }
